@@ -1,5 +1,7 @@
 import { FaBan } from "react-icons/fa"
-import { Link } from "react-router-dom"
+
+import Link from "next/link"
+
 import styled from "styled-components"
 
 const Unauthorized = () => {
@@ -24,9 +26,9 @@ const Unauthorized = () => {
 
           <div className="options">
 
-            <Link to="/signup">Signup</Link>
+            <Link href="/signup">Signup</Link>
 
-            <Link to="/login">Login</Link>
+            <Link href="/login">Login</Link>
 
           </div>
 
@@ -67,7 +69,7 @@ const UnauthorizedStyle = styled.div`
           display: inline-block;
           padding: 0 1pc;
           margin-right: 1pc;
-          margin-bottom: 1pc;
+          margin-bothrefm: 1pc;
           text-align: center;
           line-height: 2.3pc;
           background-color: ${props => props.theme.bg};
