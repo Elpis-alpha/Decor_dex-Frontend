@@ -1,7 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-import { numberOfAllItemsInCart } from '../../controllers/GeneralCtrl';
-
 
 const cartSlice = createSlice({
 
@@ -29,7 +27,7 @@ const cartSlice = createSlice({
 
     setCartData: (state, { payload }) => {
 
-      state.newlyAdded = numberOfAllItemsInCart(payload)
+      // state.newlyAdded = numberOfAllItemsInCart(payload)
 
       state.data = payload
 
