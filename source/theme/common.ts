@@ -1,6 +1,7 @@
 import { CSSProperties } from "styled-components"
 
 import { v4 } from "uuid"
+import { animationType } from "../@types/others"
 
 import { splitCapital } from "../controllers/SpecialCtrl"
 
