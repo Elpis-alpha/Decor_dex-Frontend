@@ -145,7 +145,7 @@ const SiteFooterStyle = styled.footer`
 				}
 
 				img {
-					max-width: 150px;
+					width: 150px;
 					margin: auto;
 					display: block;
 				}

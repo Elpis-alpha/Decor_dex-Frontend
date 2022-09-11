@@ -89,7 +89,7 @@ const AttractiveTopStyle = styled.div`
 		}
 		
 		@media screen and (max-width: 700px) {
-			padding: 5pc 3pc;
+			padding: 6pc 3pc;
 			h1 {
 				width: 80%;
 				font-size: 2pc;
@@ -98,7 +98,7 @@ const AttractiveTopStyle = styled.div`
 		}
 		
 		@media screen and (max-width: 500px) {
-			padding: 4pc 2pc;
+			padding: 5pc 2pc;
 			h1 {
 				width: 80%;
 				font-size: 1.5pc;
@@ -107,7 +107,7 @@ const AttractiveTopStyle = styled.div`
 		}
 		
 		@media screen and (max-width: 400px) {
-			padding: 3pc 2pc;
+			padding: 4pc 2pc;
 			h1 { width: 100%; }
 		}
 	}
