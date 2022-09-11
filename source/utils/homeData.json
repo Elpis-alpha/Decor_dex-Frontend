@@ -1,0 +1,133 @@
+{
+	"headline": {
+		"text": "Send gifts to your loved ones anywhere in India",
+		"images": {
+			"small": "/images/assets/from-s3/headline-small.png",
+			"normal": "/images/assets/from-s3/headline.png"
+		}
+	},
+	"topProducts": {
+		"heading": "Featured Products",
+		"text": "Check out these top rated products for birthdays and anniversaries"
+	},
+	"topCombos": {
+		"heading": "Featured Combos",
+		"text": "Check out these top rated stack of products that brings birthdays and anniversaries to life"
+	},
+	"featuredProductsData": [
+		{
+			"_id": "random_id_lsdjl",
+			"name": "Eternal Sunset Collection Lip and Cheek",
+			"description": "Progressively recaptiualize magnetic systems without global infomediaries. Continually drive fully tested data and state of the art portals. Conveniently transform state of the art intellectual capital for standards compliant potentialities. Completely productivate resource maximizing results without highly efficient content. Objectively fashion exceptional communities and accurate experiences. Conveniently redefine high-quality growth strategies and alternative niche markets. Seamlessly evisculate resource maximizing scenarios vis-a-vis corporate core competencies. Efficiently strategize B2C architectures before fully tested quality vectors. Dynamically integrate equity invested potentialities rather than prospective benefits. Monotonectally matrix competitive experiences whereas backend synergy. Authoritatively coordinate robust models without accurate initiatives. Enthusiastically coordinate highly efficient meta-services whereas world-class strategic theme areas. Synergistically evolve viral bandwidth for reliable services. Authoritatively re-engineer front-end functionalities and frictionless customer service. Progressively negotiate ethical web-readiness without turnkey opportunities. Conveniently optimize mission-critical portals through intuitive portals. Dynamically unleash user friendly innovation through unique initiatives. Collaboratively extend premium core competencies through resource sucking testing procedures. Appropriately orchestrate open-source solutions rather than client-centric applications. Professionally innovate mission-critical deliverables before extensive process improvements. Collaboratively leverage existing turnkey leadership skills.",
+			"price": 50,
+			"quantity": 15,
+			"categoryID": "random_id_lsfdso",
+			"sectionID": [
+				"anniv-sdf"
+			],
+			"discountID": "",
+			"images": [
+				{
+					"small": "/images/assets/from-s3/f-cake-small.png",
+					"normal": "/images/assets/from-s3/f-cake.png"
+				}
+			],
+			"createdAt": "'2022-09-14T13:37:44.895Z'",
+			"updatedAt": "'2022-02-07T13:37:44.895Z'"
+		},
+		{
+			"_id": "random_id_ksdfds",
+			"name": "Rapidiously maximize resource-leveling models",
+			"description": "Progressively recaptiualize magnetic systems without global infomediaries. Continually drive fully tested data and state of the art portals. Conveniently transform state of the art intellectual capital for standards compliant potentialities. Completely productivate resource maximizing results without highly efficient content. Objectively fashion exceptional communities and accurate experiences. Conveniently redefine high-quality growth strategies and alternative niche markets. Seamlessly evisculate resource maximizing scenarios vis-a-vis corporate core competencies. Efficiently strategize B2C architectures before fully tested quality vectors. Dynamically integrate equity invested potentialities rather than prospective benefits. Monotonectally matrix competitive experiences whereas backend synergy. Authoritatively coordinate robust models without accurate initiatives. Enthusiastically coordinate highly efficient meta-services whereas world-class strategic theme areas. Synergistically evolve viral bandwidth for reliable services. Authoritatively re-engineer front-end functionalities and frictionless customer service. Progressively negotiate ethical web-readiness without turnkey opportunities. Conveniently optimize mission-critical portals through intuitive portals. Dynamically unleash user friendly innovation through unique initiatives. Collaboratively extend premium core competencies through resource sucking testing procedures. Appropriately orchestrate open-source solutions rather than client-centric applications. Professionally innovate mission-critical deliverables before extensive process improvements. Collaboratively leverage existing turnkey leadership skills.",
+			"price": 52,
+			"quantity": 15,
+			"categoryID": "random_id_lsfdso",
+			"sectionID": [
+				"birth-sdf"
+			],
+			"discountID": "dis-fksldj",
+			"images": [
+				{
+					"small": "/images/assets/from-s3/f-plant-small.png",
+					"normal": "/images/assets/from-s3/f-plant.png"
+				}
+			],
+			"createdAt": "'2022-09-12T13:37:44.895Z'",
+			"updatedAt": "'2022-02-15T13:37:44.895Z'"
+		},
+		{
+			"_id": "random_id_dkfdsk",
+			"name": "Objectively implement client-centered vortals",
+			"description": "Progressively recaptiualize magnetic systems without global infomediaries. Continually drive fully tested data and state of the art portals. Conveniently transform state of the art intellectual capital for standards compliant potentialities. Completely productivate resource maximizing results without highly efficient content. Objectively fashion exceptional communities and accurate experiences. Conveniently redefine high-quality growth strategies and alternative niche markets. Seamlessly evisculate resource maximizing scenarios vis-a-vis corporate core competencies. Efficiently strategize B2C architectures before fully tested quality vectors. Dynamically integrate equity invested potentialities rather than prospective benefits. Monotonectally matrix competitive experiences whereas backend synergy. Authoritatively coordinate robust models without accurate initiatives. Enthusiastically coordinate highly efficient meta-services whereas world-class strategic theme areas. Synergistically evolve viral bandwidth for reliable services. Authoritatively re-engineer front-end functionalities and frictionless customer service. Progressively negotiate ethical web-readiness without turnkey opportunities. Conveniently optimize mission-critical portals through intuitive portals. Dynamically unleash user friendly innovation through unique initiatives. Collaboratively extend premium core competencies through resource sucking testing procedures. Appropriately orchestrate open-source solutions rather than client-centric applications. Professionally innovate mission-critical deliverables before extensive process improvements. Collaboratively leverage existing turnkey leadership skills.",
+			"price": 30,
+			"quantity": 15,
+			"categoryID": "random_id_lsfdso",
+			"sectionID": [
+				"anniv-sdf",
+				"birth-sdf"
+			],
+			"discountID": "",
+			"images": [
+				{
+					"small": "/images/assets/from-s3/f-ball-small.png",
+					"normal": "/images/assets/from-s3/f-ball.png"
+				}
+			],
+			"createdAt": "'2022-09-12T13:37:44.895Z'",
+			"updatedAt": "'2022-02-16T13:37:44.895Z'"
+		}
+	],
+	"featuredCombosData": [
+		{
+			"_id": "random_id_lsdjl",
+			"name": "Enthusiastically innovate diverse products",
+			"description": "Progressively recaptiualize magnetic systems without global infomediaries. Continually drive fully tested data and state of the art portals. Conveniently transform state of the art intellectual capital for standards compliant potentialities. Completely productivate resource maximizing results without highly efficient content. Objectively fashion exceptional communities and accurate experiences. Conveniently redefine high-quality growth strategies and alternative niche markets. Seamlessly evisculate resource maximizing scenarios vis-a-vis corporate core competencies. Efficiently strategize B2C architectures before fully tested quality vectors. Dynamically integrate equity invested potentialities rather than prospective benefits. Monotonectally matrix competitive experiences whereas backend synergy. Authoritatively coordinate robust models without accurate initiatives. Enthusiastically coordinate highly efficient meta-services whereas world-class strategic theme areas. Synergistically evolve viral bandwidth for reliable services. Authoritatively re-engineer front-end functionalities and frictionless customer service. Progressively negotiate ethical web-readiness without turnkey opportunities. Conveniently optimize mission-critical portals through intuitive portals. Dynamically unleash user friendly innovation through unique initiatives. Collaboratively extend premium core competencies through resource sucking testing procedures. Appropriately orchestrate open-source solutions rather than client-centric applications. Professionally innovate mission-critical deliverables before extensive process improvements. Collaboratively leverage existing turnkey leadership skills.",
+			"price": 150,
+			"quantity": 15,
+			"products": [],
+			"discountID": "",
+			"images": [
+				{
+					"small": "/images/assets/from-s3/f-combo-1-small.png",
+					"normal": "/images/assets/from-s3/f-combo-1.png"
+				}
+			],
+			"createdAt": "'2022-09-14T13:37:44.895Z'",
+			"updatedAt": "'2022-02-07T13:37:44.895Z'"
+		},
+		{
+			"_id": "random_id_ksdfds",
+			"name": "Phosfluorescently syndicate fully researched.",
+			"description": "Progressively recaptiualize magnetic systems without global infomediaries. Continually drive fully tested data and state of the art portals. Conveniently transform state of the art intellectual capital for standards compliant potentialities. Completely productivate resource maximizing results without highly efficient content. Objectively fashion exceptional communities and accurate experiences. Conveniently redefine high-quality growth strategies and alternative niche markets. Seamlessly evisculate resource maximizing scenarios vis-a-vis corporate core competencies. Efficiently strategize B2C architectures before fully tested quality vectors. Dynamically integrate equity invested potentialities rather than prospective benefits. Monotonectally matrix competitive experiences whereas backend synergy. Authoritatively coordinate robust models without accurate initiatives. Enthusiastically coordinate highly efficient meta-services whereas world-class strategic theme areas. Synergistically evolve viral bandwidth for reliable services. Authoritatively re-engineer front-end functionalities and frictionless customer service. Progressively negotiate ethical web-readiness without turnkey opportunities. Conveniently optimize mission-critical portals through intuitive portals. Dynamically unleash user friendly innovation through unique initiatives. Collaboratively extend premium core competencies through resource sucking testing procedures. Appropriately orchestrate open-source solutions rather than client-centric applications. Professionally innovate mission-critical deliverables before extensive process improvements. Collaboratively leverage existing turnkey leadership skills.",
+			"price": 120,
+			"quantity": 15,
+			"products": [],
+			"discountID": "",
+			"images": [
+				{
+					"small": "/images/assets/from-s3/f-combo-2-small.png",
+					"normal": "/images/assets/from-s3/f-combo-2.png"
+				}
+			],
+			"createdAt": "'2022-09-12T13:37:44.895Z'",
+			"updatedAt": "'2022-02-15T13:37:44.895Z'"
+		},
+		{
+			"_id": "random_id_dkfdsk",
+			"name": "Continually grow timely opportunities.",
+			"description": "Progressively recaptiualize magnetic systems without global infomediaries. Continually drive fully tested data and state of the art portals. Conveniently transform state of the art intellectual capital for standards compliant potentialities. Completely productivate resource maximizing results without highly efficient content. Objectively fashion exceptional communities and accurate experiences. Conveniently redefine high-quality growth strategies and alternative niche markets. Seamlessly evisculate resource maximizing scenarios vis-a-vis corporate core competencies. Efficiently strategize B2C architectures before fully tested quality vectors. Dynamically integrate equity invested potentialities rather than prospective benefits. Monotonectally matrix competitive experiences whereas backend synergy. Authoritatively coordinate robust models without accurate initiatives. Enthusiastically coordinate highly efficient meta-services whereas world-class strategic theme areas. Synergistically evolve viral bandwidth for reliable services. Authoritatively re-engineer front-end functionalities and frictionless customer service. Progressively negotiate ethical web-readiness without turnkey opportunities. Conveniently optimize mission-critical portals through intuitive portals. Dynamically unleash user friendly innovation through unique initiatives. Collaboratively extend premium core competencies through resource sucking testing procedures. Appropriately orchestrate open-source solutions rather than client-centric applications. Professionally innovate mission-critical deliverables before extensive process improvements. Collaboratively leverage existing turnkey leadership skills.",
+			"price": 250,
+			"quantity": 15,
+			"products": [],
+			"discountID": "dis-fksldj",
+			"images": [
+				{
+					"small": "/images/assets/from-s3/f-combo-3-small.png",
+					"normal": "/images/assets/from-s3/f-combo-3.png"
+				}
+			],
+			"createdAt": "'2022-09-12T13:37:44.895Z'",
+			"updatedAt": "'2022-02-16T13:37:44.895Z'"
+		}
+	]
+}

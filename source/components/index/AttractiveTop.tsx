@@ -2,6 +2,8 @@ import Link from "next/link"
 
 import styled from "styled-components"
 
+import { homeDataType } from "../../@types/components"
+
 import { commonType } from "../../@types/others"
 
 import { siteThemeColor } from "../../__env"
@@ -9,7 +11,7 @@ import { siteThemeColor } from "../../__env"
 import ElpisImage from "../general/ElpisImage"
 
 
-const AttractiveTop = ({ common }: { common: commonType }) => {
+const AttractiveTop = ({ common, homeData }: { common: commonType, homeData: homeDataType }) => {
 
 	return (
 
@@ -19,13 +21,13 @@ const AttractiveTop = ({ common }: { common: commonType }) => {
 
 			<div className="att-hol">
 
-				<h1>{common.headline.text}</h1>
+				<h1>{homeData.headline.text}</h1>
 
 				<Link href="/store"><a>Shop Now</a></Link>
 
 			</div>
 
-			<ElpisImage src={common.headline.images.small} fullSize={common.headline.images.normal} />
+			<ElpisImage src={homeData.headline.images.small} fullSize={homeData.headline.images.normal} alt={homeData.headline.text} />
 
 		</AttractiveTopStyle>
 

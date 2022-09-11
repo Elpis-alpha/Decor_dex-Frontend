@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import { siteThemeColor } from '../../__env';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -276,17 +277,17 @@ button, input {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #004f792a;
+  background: #fff;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #004f79;
+  background: #fff06a;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #003957;
+  background: #ffea29;
 }
 
 /* Custom Scroll bar END */

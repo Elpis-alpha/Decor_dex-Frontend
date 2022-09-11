@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import { useEffect, useRef } from "react"
 
+import { ElpisImageType } from "../../@types/components"
+
 import { reformImage } from "../../controllers/SpecialCtrl"
 
 
