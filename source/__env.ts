@@ -2,6 +2,8 @@ export const owner = "Jayant"
 
 export const creator = "Elpis"
 
+export const creatorLink = "https://elpis-portfolio.vercel.app/"
+
 export const siteName = "Decor dex"
 
 export const siteDescription = `

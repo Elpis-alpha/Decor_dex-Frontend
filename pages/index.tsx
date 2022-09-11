@@ -11,8 +11,13 @@ import TopPart from '../source/components/general/top/TopPart'
 import AttractiveTop from '../source/components/index/AttractiveTop'
 
 import TopProducts from '../source/components/index/TopProducts'
+
 import TopCombos from '../source/components/index/TopCombos'
+
 import OurStore from '../source/components/index/OurStore'
+
+import WhoWeAre from '../source/components/index/WhoWeAre'
+import SiteFooter from '../source/components/general/SiteFooter'
 
 
 const Home: NextPage = ({ common, homeData }: any) => {
@@ -27,11 +32,17 @@ const Home: NextPage = ({ common, homeData }: any) => {
 
       <AttractiveTop {...{ common, homeData }} />
 
+      <WhoWeAre {...{ common, homeData }} />
+
       <TopProducts {...{ common, homeData }} />
 
       <TopCombos {...{ common, homeData }} />
 
       <OurStore {...{ common, homeData }} />
+
+      {/* Testimonials */}
+
+      <SiteFooter {...{ common }} />
 
     </>
 

@@ -115,7 +115,6 @@ const OurStoreStyle = styled.div`
 			padding: 3pc 2pc;
 		}
 	}
-	margin-bottom: 2pc;
 `
 
 export default OurStore

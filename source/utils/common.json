@@ -1,21 +1,23 @@
 {
   "topHeading": "Free shipping on orders over $100 with free returns",
+  "footer": {
+    "motto": "Globally formulate low-risk high-yield data vis-a-vis stand-alone."
+  },
+  "social": {
+    "twitter": "#",
+    "instagram": "#",
+    "whatsapp": "#",
+    "facebook": "#"
+  },
   "discounts": [
     {
-      
-  "_id": "dis-fksldj",
-
-  "name": "Las Noches Day",
-
-  "description": "Completely scale customer directed web services before 24/7 mindshare. Completely unleash quality information vis-a-vis empowered best practices. Seamlessly extend adaptive users via functional scenarios. Energistically monetize.",
-
-  "percent": 25,
-
-  "active": true,
-
-  "createdAt": "'2022-09-14T13:37:44.895Z'",
-  "updatedAt": "'2022-02-07T13:37:44.895Z'"
-
+      "_id": "dis-fksldj",
+      "name": "Las Noches Day",
+      "description": "Completely scale customer directed web services before 24/7 mindshare. Completely unleash quality information vis-a-vis empowered best practices. Seamlessly extend adaptive users via functional scenarios. Energistically monetize.",
+      "percent": 25,
+      "active": true,
+      "createdAt": "'2022-09-14T13:37:44.895Z'",
+      "updatedAt": "'2022-02-07T13:37:44.895Z'"
     }
   ],
   "sections": [],
