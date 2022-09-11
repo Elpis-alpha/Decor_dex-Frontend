@@ -12,6 +12,7 @@ import AttractiveTop from '../source/components/index/AttractiveTop'
 
 import TopProducts from '../source/components/index/TopProducts'
 import TopCombos from '../source/components/index/TopCombos'
+import OurStore from '../source/components/index/OurStore'
 
 
 const Home: NextPage = ({ common, homeData }: any) => {
@@ -29,6 +30,8 @@ const Home: NextPage = ({ common, homeData }: any) => {
       <TopProducts {...{ common, homeData }} />
 
       <TopCombos {...{ common, homeData }} />
+
+      <OurStore {...{ common, homeData }} />
 
     </>
 

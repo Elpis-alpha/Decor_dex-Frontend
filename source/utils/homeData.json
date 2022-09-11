@@ -129,5 +129,13 @@
 			"createdAt": "'2022-09-12T13:37:44.895Z'",
 			"updatedAt": "'2022-02-16T13:37:44.895Z'"
 		}
-	]
+	],
+	"ourStore": {
+		"heading": "Our Store",
+		"text": "We have various options in our store. Collaboratively coordinate dynamic growth strategies with long-term high-impact processes. Interactively integrate optimal partnerships and sticky core competencies. Completely develop quality functionalities via competitive scenarios.",
+		"images": {
+			"small": "/images/assets/from-s3/our-store-small.png",
+			"normal": "/images/assets/from-s3/our-store.png"
+		}
+	}
 }
