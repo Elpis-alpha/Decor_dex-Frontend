@@ -10,4 +10,6 @@ interface ElpisImageType {
 
   remove?: boolean
 
+  fullSize?: string
+
 }

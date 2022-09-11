@@ -29,7 +29,7 @@ const NavBar = () => {
 
 						<div className="nav-ham-in">
 
-							<Hamburger toggled={navStatus === "opened"} toggle={st => setNavStatus("closed")} size={35} distance="sm" rounded />
+							<Hamburger toggled={navStatus === "opened"} toggle={st => setNavStatus("closed")} size={25} distance="sm" rounded />
 
 						</div>
 
@@ -95,7 +95,7 @@ const NavBar = () => {
 
 					<div className="nav-ham-in">
 
-						<Hamburger toggled={navStatus === "opened"} toggle={st => setNavStatus("opened")} size={35} distance="sm" rounded />
+						<Hamburger toggled={navStatus === "opened"} toggle={st => setNavStatus("opened")} size={25} distance="sm" rounded />
 
 					</div>
 
@@ -125,31 +125,35 @@ const NavBar = () => {
 
 				<div className={"rt-hol " + (iconStatus === "opened" ? "show" : "")}>
 
-					<div className="icon-mast" onClick={() => setIconStatus(iconStatus === "opened" ? "closed" : "opened")}>
+					<div className="icon-mast num-cap" onClick={() => setIconStatus(iconStatus === "opened" ? "closed" : "opened")}>
 
-						<AiOutlinePlus size="1.5pc" />
+						<AiOutlinePlus size="1.2pc" />
 
 					</div>
 
 					<Link href="/store#decor-search"><a className="icon-hol">
 
-						<AiOutlineSearch size="1.5pc" />
+						<AiOutlineSearch size="1.2pc" />
 
 					</a></Link>
 
 					<Link href="/me"><a className="icon-hol">
 
-						<AiOutlineUser size="1.5pc" />
+						<AiOutlineUser size="1.2pc" />
 
 					</a></Link>
 
-					<Link href="/cart"><a className="icon-hol">
+					<Link href="/cart"><a className="icon-hol num-cap">
 
-						<AiOutlineShoppingCart size="1.5pc" />
+						<AiOutlineShoppingCart size="1.2pc" />
+
+						<div className="num">0</div>
 
 					</a></Link>
 
 				</div>
+
+				<div className="num ott">0</div>
 
 			</div>
 
@@ -169,6 +173,14 @@ const NavBarStyle = styled.nav`
 	justify-content: space-between;
 	height: 5pc;
 	box-shadow: 0 0 1px 0 rgba(0,0,0,.4);
+	
+	@media screen and (max-width: 1000px) {
+		height: 4pc;
+	}
+	
+	@media screen and (max-width: 800px) {
+		height: 3pc;
+	}
 
 	.left-part {
 		flex: 1;
@@ -292,6 +304,28 @@ const NavBarStyle = styled.nav`
 		display: flex;
 		justify-content: flex-end;
 
+		.num {
+			position: absolute;
+			background-color: red;
+			color: #fff;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: .6pc;
+			line-height: 1pc;
+
+			width: .8pc;
+			height: .8pc;
+			border-radius: 50%;
+
+			top: -.5pc; right: -.5pc;
+
+			&.ott {
+				display: none;
+			}
+		}
+
 		.rt-hol {
 			display: flex;
 			align-items: center;
@@ -308,27 +342,41 @@ const NavBarStyle = styled.nav`
 				display: flex;
 				align-items: center;
 				justify-content: center;
+				color: inherit;
+				transition: color .5s;
+				
+				&:hover {
+					color: #ccc;
+				}
 			}
 		}
 
-		@media screen and (max-width: 700px) {
+		@media screen and (max-width: 360px) {
 			height: 100%;
 			overflow: visible;
+
+			.num {
+				top: 0; right: 0;
+				
+				&.ott {
+					display: flex;
+				}
+			}
 			
 			.rt-hol {
 				flex-direction: column;
 				justify-content: flex-start;
 				background-color: #fff;
 				border-radius: 25px;
-				height: 50px;
+				height: 35.18px;
 				overflow: hidden;
+				margin-top: 3.2px;
 				/* margin: auto 0; */
-				margin-top: 16.8px;
 				box-shadow:  1px 1px 3px #bbb;
 				transition: height .5s;
 
 				&.show {
-					height: ${50 * 4}px;
+					height: ${35.18 * 4}px;
 					
 					.icon-mast {
 						transform: rotate(${45 + 90}deg);
@@ -337,21 +385,28 @@ const NavBarStyle = styled.nav`
 				}
 				
 				.icon-mast {
-					padding: .81pc;
+					padding: .5pc;
 					margin: 0;
 					display: flex;
 					align-items: center;
 					justify-content: center;
 					cursor: pointer;
 					transition: transform .5s, color .5s;
+					
+					.num {
+						position: absolute;
+						top: .2pc; right: .2pc;
+					}
 				}
 
 				.icon-hol {
-					padding: .81pc;
+					padding: .5pc;
 					margin: 0;
 					display: flex;
 					align-items: center;
 					justify-content: center;
+					transition: background-color .5s;
+					border-radius: 50%;
 				}
 			}
 		}

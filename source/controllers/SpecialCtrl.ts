@@ -630,15 +630,13 @@ export const apostrophifyName = (name: string) => {
 
 }
 
-export const reformImage = (im: any, removeNext = false, remove = true) => {
+export const reformImage = (im: any, removeNext = false, remove = true, url: string | undefined = undefined) => {
 
   const smallSize = im
 
   const fullSize = new Image()
 
-  fullSize.src = smallSize.src.split('/').filter((value: string) => value !== 'blur').join('/')
-
-  console.log('dlj');
+  fullSize.src = url ? url : smallSize.src.split('/').filter((value: string) => value !== 'blur').join('/')
 
   fullSize.onload = () => {
 

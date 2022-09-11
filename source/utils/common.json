@@ -1,3 +1,10 @@
 {
-  "topHeading": "Free shipping on orders over $100 with free returns"
+  "topHeading": "Free shipping on orders over $100 with free returns",
+  "headline": {
+    "text": "Send gifts to your loved ones anywhere in India",
+    "images": {
+      "small": "/images/assets/from-s3/headline-small.png",
+      "normal": "/images/assets/from-s3/headline.png"
+    }
+  }
 }

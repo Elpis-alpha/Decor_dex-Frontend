@@ -189,12 +189,32 @@ body > #__next {
   flex-direction: column;
 }
 
-.absolute-invisibility{
+.absolute-invisibility {
   position: absolute;
   display: none;
   width: 0; height: 0;
   border: 0; outline: 0;
   background: transparent;
+}
+
+.shaded-cover {
+  position: absolute;
+  display: block;
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+  right: 0; bottom: 0;
+  background: rgba(0, 0, 0, .1);
+  z-index: 5;
+
+  &.o2 {background: rgba(0, 0, 0, .2);}
+  &.o3 {background: rgba(0, 0, 0, .3);}
+  &.o4 {background: rgba(0, 0, 0, .4);}
+  &.o5 {background: rgba(0, 0, 0, .5);}
+  &.o6 {background: rgba(0, 0, 0, .6);}
+  &.o7 {background: rgba(0, 0, 0, .7);}
+  &.o8 {background: rgba(0, 0, 0, .8);}
+  &.o9 {background: rgba(0, 0, 0, .9);}
+  &.o10 {background: rgba(0, 0, 0, 1);}
 }
 
 a{

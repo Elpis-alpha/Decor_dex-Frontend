@@ -4,11 +4,11 @@ import { useEffect, useRef } from "react"
 import { reformImage } from "../../controllers/SpecialCtrl"
 
 
-const ElpisImage = ({ src, alt = "", title = "", removeNext = false, remove = true }: ElpisImageType) => {
+const ElpisImage = ({ src, alt = "", title = "", removeNext = false, remove = true, fullSize }: ElpisImageType) => {
 
   const imageRef = useRef(null)
 
-  useEffect(() => { reformImage(imageRef.current, removeNext, remove) }, [removeNext, remove])
+  useEffect(() => { reformImage(imageRef.current, removeNext, remove, fullSize) }, [removeNext, remove, fullSize])
 
   return <img src={src} alt={alt} title={title} ref={imageRef} />
 
