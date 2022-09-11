@@ -17,7 +17,10 @@ import TopCombos from '../source/components/index/TopCombos'
 import OurStore from '../source/components/index/OurStore'
 
 import WhoWeAre from '../source/components/index/WhoWeAre'
+
 import SiteFooter from '../source/components/general/SiteFooter'
+
+import Testimonials from '../source/components/index/Testimonials'
 
 
 const Home: NextPage = ({ common, homeData }: any) => {
@@ -40,7 +43,7 @@ const Home: NextPage = ({ common, homeData }: any) => {
 
       <OurStore {...{ common, homeData }} />
 
-      {/* Testimonials */}
+      <Testimonials {...{ common, homeData }} />
 
       <SiteFooter {...{ common }} />
 

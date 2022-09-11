@@ -106,7 +106,6 @@ const SiteFooter = ({ common }: { common: commonType }) => {
 }
 
 const SiteFooterStyle = styled.footer`
-	margin-top: 1pc;
 	width: 100%;
 	z-index: 10;
 	background-color: #f1f1f1;

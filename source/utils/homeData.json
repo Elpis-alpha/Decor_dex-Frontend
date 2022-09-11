@@ -141,5 +141,28 @@
 			"small": "/images/assets/from-s3/our-store-small.png",
 			"normal": "/images/assets/from-s3/our-store.png"
 		}
-	}
+	},
+	"testimonials": [
+		{
+			"_id": "dsajksad",
+			"name": "Josh Mane",
+			"title": "Owner of Sky Mats",
+			"headShot": "/images/assets/from-s3/josh.png",
+			"text": "Enthusiastically supply error-free action items before fully tested e-business. Authoritatively procrastinate state of the art imperatives through leading-edge functionalities. Completely negotiate interactive resources whereas enterprise-wide metrics. Seamlessly transition."
+		},
+		{
+			"_id": "lskdfds",
+			"name": "Kate Harris",
+			"title": "Marksman of Ages Dawn",
+			"headShot": "/images/assets/from-s3/kate.png",
+			"text": "Assertively conceptualize extensive sources and resource sucking metrics. Appropriately monetize quality infrastructures whereas front-end benefits. Continually transition scalable value before unique technology. Distinctively reintermediate timely methodologies rather than."
+		},
+		{
+			"_id": "ljfdsfsdj",
+			"name": "Mart Kent",
+			"title": "Journalist at The Kings",
+			"headShot": "/images/assets/from-s3/mart.png",
+			"text": "Dynamically communicate covalent resources and client-focused experiences. Efficiently integrate customized ROI via future-proof results. Energistically network go forward resources with diverse solutions. Dynamically foster top-line customer service via."
+		}
+	]
 }
